@@ -13,22 +13,24 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 450px;
+    height: 550px;
     width: 700px;
     background-color: #f2f2f2;
     border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2)
 
 }
 
 #title {
-    font-family: Playwrite GB S;
+    font-family: 'Playwrite GB S', serif;
     font-size: 50px;
     color: black;
     font-weight: bold;
+    margin: 20px 0;
 }
 
 #instructions {
-    font-family: Ga Maamli;
+    font-family: 'Ga Maamli', sans-serif;
     font-size: 20px;
     color: black;
 }
@@ -36,6 +38,8 @@ body {
 #fortuneButton {
     font-size: 20px;
     color: black;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
 #fortuneButton:hover {
@@ -54,3 +58,9 @@ body {
     position: relative;
     top: 1em;
   }
+
+#themeMessage {
+    font-weight: bold;
+    font-size: 20px;
+}
+
